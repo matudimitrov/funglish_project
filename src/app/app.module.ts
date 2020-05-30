@@ -16,7 +16,10 @@ import { ConsonantsInfoComponent } from './consonants-info/consonants-info.compo
 import { VowelsInfoComponent } from './vowels-info/vowels-info.component';
 import { LetterAInfoComponent } from './letter-a-info/letter-a-info.component';
 import { LetterBComponent } from './letter-b/letter-b.component';
-import { LetterBInfoComponent } from './letter-b-info/letter-b-info.component'
+import { LetterBInfoComponent } from './letter-b-info/letter-b-info.component';
+import { LetterAPronComponent } from './letter-a-pron/letter-a-pron.component';
+import { NgxAudioPlayerModule } from 'ngx-audio-player';
+import { LetterATestComponent } from './letter-a-test/letter-a-test.component';
 
 
 
@@ -35,14 +38,17 @@ import { LetterBInfoComponent } from './letter-b-info/letter-b-info.component'
     VowelsInfoComponent,
     LetterAInfoComponent,
     LetterBComponent,
-    LetterBInfoComponent
+    LetterBInfoComponent,
+    LetterAPronComponent,
+    LetterATestComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    NgxAudioPlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

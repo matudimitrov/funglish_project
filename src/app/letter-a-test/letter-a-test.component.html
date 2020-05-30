@@ -1,0 +1,28 @@
+<div class="content" role="main">
+    <h1 class="header">Коя дума започва с изучената в предишната страница буква?</h1>
+
+    <div class="info-img">
+        <div class="text">
+            <p [class.pointer]="!chosenAnswer" (click)="choooseWrongAnswer(1)" [class.wrong]="first">Bike</p>
+            <p [class.pointer]="!chosenAnswer" (click)=chooseCorrectAnswer() [class.correct]="chosenAnswer && !wrongAnswer">Apple</p>
+        </div>
+        <div class="text1">
+            <p [class.pointer]="!chosenAnswer" (click)="choooseWrongAnswer(3)" [class.wrong]="third">Dog</p>
+            <p [class.pointer]="!chosenAnswer" (click)="choooseWrongAnswer(4)" [class.wrong]="fourth">Cat</p>
+            
+        </div>
+        <!-- <img class="image" src="../../assets/images/A.png" alt="alphabet" height="400px"> -->
+
+    </div>
+
+    <div class="arrows">
+        <img (click)="goBack()" src="../../assets/images/902px-Arrow_west.svg.png" alt="left-arrow" class="left-arrow">
+        <div class="error-div" *ngIf="chosenAnswer && wrongAnswer" (click)="refresh()">
+        <p class="error">Try again </p>
+        <span class="error-box" class="material-icons">
+            error
+            </span>
+        </div>
+        <img src="../../assets/images/800px-Arrow_east.svg.png" alt="right-arrow" class="right-arrow" routerLink="/letter-b" *ngIf="chosenAnswer && !wrongAnswer">
+    </div>
+</div>

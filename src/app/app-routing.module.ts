@@ -11,6 +11,8 @@ import { ConsonantsInfoComponent } from './consonants-info/consonants-info.compo
 import { LetterAInfoComponent } from './letter-a-info/letter-a-info.component';
 import { LetterBComponent } from './letter-b/letter-b.component';
 import { LetterBInfoComponent } from './letter-b-info/letter-b-info.component';
+import { LetterAPronComponent } from './letter-a-pron/letter-a-pron.component';
+import { LetterATestComponent } from './letter-a-test/letter-a-test.component';
 
 
 const routes: Routes = [
@@ -24,6 +26,8 @@ const routes: Routes = [
   { path: "consonants-info", component: ConsonantsInfoComponent},
   { path: 'letter-a', component: LetterAComponent},
   { path: 'letter-a-info', component: LetterAInfoComponent},
+  { path: 'letter-a-pron', component: LetterAPronComponent},
+  { path: 'letter-a-test', component: LetterATestComponent},
   { path: 'letter-b', component: LetterBComponent},
   { path: 'letter-b-info', component: LetterBInfoComponent}
 ];
