@@ -20,6 +20,8 @@ import { LetterBInfoComponent } from './letter-b-info/letter-b-info.component';
 import { LetterAPronComponent } from './letter-a-pron/letter-a-pron.component';
 import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { LetterATestComponent } from './letter-a-test/letter-a-test.component';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 
 
@@ -48,7 +50,8 @@ import { LetterATestComponent } from './letter-a-test/letter-a-test.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
-    NgxAudioPlayerModule
+    NgxAudioPlayerModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -306,6 +306,47 @@
   />
   <span class="welcome" routerLink="/">Welcome to FUNglish</span>
   <mat-icon aria-hidden="false" aria-label="Example home icon" class="home-button" routerLink="/">home</mat-icon>
+  <button mat-button [matMenuTriggerFor]="menu1">Всички букви</button>
+<mat-menu #menu1="matMenu">
+  <button mat-menu-item routerLink="/vowels">Гласни букви</button>
+  <button mat-menu-item routerLink="/consonants">Съгласни букви</button>
+</mat-menu>
+  <button mat-button [matMenuTriggerFor]="menu2">Гласни букви</button>
+<mat-menu #menu2="matMenu">
+  <button mat-menu-item routerLink="/letter-a">Буква A</button>
+  <button mat-menu-item>Буква E</button>
+  <button mat-menu-item>Буква I</button>
+  <button mat-menu-item>Буква O</button>
+  <button mat-menu-item>Буква U</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu3">Съгласни букви</button>
+<mat-menu #menu3="matMenu">
+  <button mat-menu-item >Буква B</button>
+  <button mat-menu-item>Буква C</button>
+  <button mat-menu-item>Буква D</button>
+  <button mat-menu-item>Буква F</button>
+  <button mat-menu-item>Буква G</button>
+  <button mat-menu-item>Буква H</button>
+  <button mat-menu-item>Буква J</button>
+  <button mat-menu-item>Буква K</button>
+  <button mat-menu-item>Буква L</button>
+  <button mat-menu-item>Буква M</button>
+  <button mat-menu-item>Буква N</button>
+  <button mat-menu-item>Буква P</button>
+  <button mat-menu-item>Буква Q</button>
+  <button mat-menu-item>Буква R</button>
+  <button mat-menu-item>Буква S</button>
+  <button mat-menu-item>Буква T</button>
+  <button mat-menu-item>Буква V</button>
+  <button mat-menu-item>Буква W</button>
+  <button mat-menu-item>Буква X</button>
+  <button mat-menu-item>Буква Y</button>
+  <button mat-menu-item>Буква Z</button>
+</mat-menu>
+  <!-- <button mat-icon-button [matMenuTriggerFor]="appMenu">
+    <mat-icon>more_vert</mat-icon>
+  </button> -->
+  <span></span>
     <div class="spacer"></div>
 </div>
 <router-outlet></router-outlet>
