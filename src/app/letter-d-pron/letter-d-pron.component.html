@@ -1,0 +1,24 @@
+<div class="content" role="main">
+    <h1 class="header">Letter D - Буквата D</h1>
+
+    <div class="info-img">
+        <div class="text">
+            <p style="margin-bottom: 30px;">Как се произнася?</p>
+            <mat-basic-audio-player class="audio" [audioUrl]="msbapAudioUrl" [title]="msbapTitle" [autoPlay]="false" muted="muted" 
+    [displayTitle]="msbapDisplayTitle" [displayVolumeControls]="msbapDisplayVolumeControls" ></mat-basic-audio-player>
+        <p routerLink="/letter-d-test" class="try" style="margin-top: 30px;"> Опитай сам! <span class="material-icons">
+            help
+            </span></p>
+            
+        </div>
+        <img class="image" src="../../assets/images/d_pic.png" alt="alphabet" height="400px">
+
+    </div>
+
+    <div class="arrows">
+        <img (click)="goBack()" src="../../assets/images/902px-Arrow_west.svg.png" alt="left-arrow" class="left-arrow"> 
+        <img src="../../assets/images/800px-Arrow_east.svg.png" alt="right-arrow" class="right-arrow" routerLink="/letter-e" *ngIf="hasAnswered()">
+
+        <!-- <img src="../../assets/images/800px-Arrow_east.svg.png" alt="right-arrow" class="right-arrow" routerLink="/letter-b"> -->
+    </div>
+</div>

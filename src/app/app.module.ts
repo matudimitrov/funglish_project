@@ -21,6 +21,16 @@ import { LetterAPronComponent } from './letter-a-pron/letter-a-pron.component';
 import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { LetterATestComponent } from './letter-a-test/letter-a-test.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { LetterBTestComponent } from './letter-b-test/letter-b-test.component';
+import { LetterBPronComponent } from './letter-b-pron/letter-b-pron.component';
+import { LetterDPronComponent } from './letter-d-pron/letter-d-pron.component';
+import { LetterDTestComponent } from './letter-d-test/letter-d-test.component';
+import { LetterDInfoComponent } from './letter-d-info/letter-d-info.component';
+import { LetterDComponent } from './letter-d/letter-d.component';
+import { LetterEComponent } from './letter-e/letter-e.component';
+import { LetterEInfoComponent } from './letter-e-info/letter-e-info.component';
+import { LetterETestComponent } from './letter-e-test/letter-e-test.component';
+import { LetterEPronComponent } from './letter-e-pron/letter-e-pron.component';
 
 
 
@@ -42,7 +52,17 @@ import {MatMenuModule} from '@angular/material/menu';
     LetterBComponent,
     LetterBInfoComponent,
     LetterAPronComponent,
-    LetterATestComponent
+    LetterATestComponent,
+    LetterBTestComponent,
+    LetterBPronComponent,
+    LetterDPronComponent,
+    LetterDTestComponent,
+    LetterDInfoComponent,
+    LetterDComponent,
+    LetterEComponent,
+    LetterEInfoComponent,
+    LetterETestComponent,
+    LetterEPronComponent
   ],
   imports: [
     BrowserModule,

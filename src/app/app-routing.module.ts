@@ -13,6 +13,16 @@ import { LetterBComponent } from './letter-b/letter-b.component';
 import { LetterBInfoComponent } from './letter-b-info/letter-b-info.component';
 import { LetterAPronComponent } from './letter-a-pron/letter-a-pron.component';
 import { LetterATestComponent } from './letter-a-test/letter-a-test.component';
+import { LetterBPronComponent } from './letter-b-pron/letter-b-pron.component';
+import { LetterBTestComponent } from './letter-b-test/letter-b-test.component';
+import { LetterDComponent } from './letter-d/letter-d.component';
+import { LetterDInfoComponent } from './letter-d-info/letter-d-info.component';
+import { LetterDPronComponent } from './letter-d-pron/letter-d-pron.component';
+import { LetterDTestComponent } from './letter-d-test/letter-d-test.component';
+import { LetterEComponent } from './letter-e/letter-e.component';
+import { LetterEInfoComponent } from './letter-e-info/letter-e-info.component';
+import { LetterEPronComponent } from './letter-e-pron/letter-e-pron.component';
+import { LetterETestComponent } from './letter-e-test/letter-e-test.component';
 
 
 const routes: Routes = [
@@ -29,7 +39,17 @@ const routes: Routes = [
   { path: 'letter-a-pron', component: LetterAPronComponent},
   { path: 'letter-a-test', component: LetterATestComponent},
   { path: 'letter-b', component: LetterBComponent},
-  { path: 'letter-b-info', component: LetterBInfoComponent}
+  { path: 'letter-b-info', component: LetterBInfoComponent},
+  { path: 'letter-b-pron', component: LetterBPronComponent},
+  { path: 'letter-b-test', component: LetterBTestComponent},
+  { path: 'letter-d', component: LetterDComponent},
+  { path: 'letter-d-info', component: LetterDInfoComponent},
+  { path: 'letter-d-pron', component: LetterDPronComponent},
+  { path: 'letter-d-test', component: LetterDTestComponent},
+  { path: 'letter-e', component: LetterEComponent},
+  { path: 'letter-e-info', component: LetterEInfoComponent},
+  { path: 'letter-e-pron', component: LetterEPronComponent},
+  { path: 'letter-e-test', component: LetterETestComponent}
 ];
 
 @NgModule({

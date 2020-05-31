@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
+
 
 @Component({
   selector: 'app-letter-b',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LetterBComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private location: Location
+  ) { }
 
   ngOnInit(): void {
   }
-
+  goBack(): void {
+    this.location.back();
+  }
 }
