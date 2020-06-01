@@ -23,6 +23,9 @@ import { LetterEComponent } from './letter-e/letter-e.component';
 import { LetterEInfoComponent } from './letter-e-info/letter-e-info.component';
 import { LetterEPronComponent } from './letter-e-pron/letter-e-pron.component';
 import { LetterETestComponent } from './letter-e-test/letter-e-test.component';
+import { FinalTestComponent } from './final-test/final-test.component';
+import { TestResultComponent } from './test-result/test-result.component';
+import { ConclusionComponent } from './conclusion/conclusion.component';
 
 
 const routes: Routes = [
@@ -49,7 +52,10 @@ const routes: Routes = [
   { path: 'letter-e', component: LetterEComponent},
   { path: 'letter-e-info', component: LetterEInfoComponent},
   { path: 'letter-e-pron', component: LetterEPronComponent},
-  { path: 'letter-e-test', component: LetterETestComponent}
+  { path: 'letter-e-test', component: LetterETestComponent},
+  { path: 'final-test', component: FinalTestComponent},
+  { path: 'test-result', component: TestResultComponent},
+  { path: 'conclusion', component: ConclusionComponent}
 ];
 
 @NgModule({

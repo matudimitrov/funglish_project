@@ -31,6 +31,9 @@ import { LetterEComponent } from './letter-e/letter-e.component';
 import { LetterEInfoComponent } from './letter-e-info/letter-e-info.component';
 import { LetterETestComponent } from './letter-e-test/letter-e-test.component';
 import { LetterEPronComponent } from './letter-e-pron/letter-e-pron.component';
+import { FinalTestComponent } from './final-test/final-test.component';
+import { TestResultComponent } from './test-result/test-result.component';
+import { ConclusionComponent } from './conclusion/conclusion.component';
 
 
 
@@ -62,7 +65,10 @@ import { LetterEPronComponent } from './letter-e-pron/letter-e-pron.component';
     LetterEComponent,
     LetterEInfoComponent,
     LetterETestComponent,
-    LetterEPronComponent
+    LetterEPronComponent,
+    FinalTestComponent,
+    TestResultComponent,
+    ConclusionComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,50 @@
+<div class="content" role="main">
+    <h1 class="header">Краен тест</h1>
+
+    <h2>1.Коя дума започва с първата буква от английската азбука?</h2>
+
+    <div class="info-img">
+        <div class="text">
+            <p class="pointer"  (click)="choooseAnswer(1,1)" [class.chosen]="first1">Sun</p>
+            <p class="pointer"  (click)=choooseAnswer(2,1) [class.chosen]="second1">Alphabet</p>
+        </div>
+        <div class="text1">
+            <p class="pointer" (click)=choooseAnswer(3,1) [class.chosen]="third1">Elephant</p>
+            <p class="pointer" (click)=choooseAnswer(4,1) [class.chosen]="fourth1">Cat</p>
+            
+        </div>
+    </div>
+
+    <h2>2.Коя дума започва с буквата D?</h2>
+
+    <div class="info-img">
+        <div class="text">
+            <p class="pointer" (click)="choooseAnswer(1,2)" [class.chosen]="first2">Car</p>
+            <p class="pointer" (click)="choooseAnswer(2,2)" [class.chosen]="second2">Big</p>
+        </div>
+        <div class="text1">
+            <p class="pointer" (click)="choooseAnswer(3,2)" [class.chosen]="third2">Telephone</p>
+            <p class="pointer" (click)="choooseAnswer(4,2)" [class.chosen]="fourth2">Dinosaur</p>
+            
+        </div>
+    </div>
+
+    <h2>3.Коя дума има 2 гласни букви?</h2>
+
+    <div class="info-img third-question">
+        <div class="text">
+            <p class="pointer" (click)="choooseAnswer(1,3)" [class.chosen]="first3">Chair</p>
+            <p class="pointer" (click)="choooseAnswer(2,3)" [class.chosen]="second3">Dog</p>
+        </div>
+        <div class="text1">
+            <p class="pointer" (click)="choooseAnswer(3,3)" [class.chosen]="third3">Brown</p>
+            <p class="pointer" (click)="choooseAnswer(4,3)" [class.chosen]="fourth3">Sit</p>
+            
+        </div>
+    </div>
+
+    <div class="arrows third-question">
+        <img (click)="goBack()" src="../../assets/images/902px-Arrow_west.svg.png" alt="left-arrow" class="left-arrow">
+        <p class="error" routerLink="/test-result">Предай теста</p>
+    </div>
+</div>
